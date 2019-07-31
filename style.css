@@ -4,12 +4,13 @@ html, body{
   }
 
 body{
-    background-color: rgb(244, 247, 246);
+    background-color: #343a40;
 }
 
 .container{
     text-align: center;
     height: auto;
+    color: white
 }
 
 .container-fluid{
@@ -125,6 +126,7 @@ h3{
     font-family: 'Paytone one', sans-serif;
     font-size: 2em;
     visibility: hidden;
+    color: white;
   }
 
   .technologies{
