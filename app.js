@@ -14,3 +14,7 @@ $(document).ready(function() {
     });
   
   });
+  
+ $(".email").click(function(){
+  window.open('mailto:anibalcampos2324@gmail.com');
+ });
