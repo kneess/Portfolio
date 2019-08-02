@@ -5,9 +5,12 @@ $(document).ready(function() {
       var scroll = $(window).scrollTop();
       var currScrollTop = $(this).scrollTop();
       if (scroll >= banner_height && currScrollTop > lastScrollTop) {
-        $(".navbar").hide();
+        // $(".navbar").hide();
+        $(".navbar").addClass('hide');
       } else {
-        $(".navbar").show();
+        // $(".navbar").show();
+        $(".navbar").removeClass('hide');
+
       }
       lastScrollTop = currScrollTop;
   
