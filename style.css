@@ -181,7 +181,8 @@ h3{
 }
 
 @media only screen and (max-width: 768px) {
-    /* For mobile phones: */
+    /* For mobile phones: */    
+   
     h1 {
         font-family: 'Paytone one', sans-serif;
         font-size: 3em;
@@ -200,12 +201,10 @@ h3{
     }
 
     .cont1{
-        background-image: url("./images/laptop.jpg");
-        background-size: cover;
+       background-attachment: scroll;
     }
     
     .my-row3{
-        background-image: url("./images/k2.JPG");
-        background-size: cover;
+        background-attachment: scroll;
     }
   }
