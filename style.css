@@ -198,4 +198,14 @@ h3{
     .col-about{
         font-size: 1em;
     }
+
+    .cont1{
+        background-image: url("./images/laptop.jpg");
+        background-size: cover;
+    }
+    
+    .my-row3{
+        background-image: url("./images/k2.JPG");
+        background-size: cover;
+    }
   }
