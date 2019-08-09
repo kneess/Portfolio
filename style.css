@@ -16,6 +16,9 @@ body{
     opacity: 0;
   }
 
+  h5{
+    font-family: 'Archivo Black', sans-serif;
+  }
 .container{
     text-align: center;
     height: auto;
@@ -28,7 +31,7 @@ body{
 }
 
 .my-container{
-    margin-top: 4.3em;
+    margin-top: 4em;
 }
 
 .row{
@@ -63,7 +66,7 @@ body{
 
   /* aboutmesection */
   .col-about{
-    font-family: 'Paytone one', sans-serif;
+    font-family: 'Archivo Black', sans-serif;
     font-size: 1.3em;
     height: auto;
   }
@@ -80,12 +83,12 @@ body{
 
 
 h1{
-    font-family: 'Paytone one', sans-serif;
+    font-family: 'Archivo Black', sans-serif;
     font-size: 4em;
 }
 
 h3{
-    font-family: 'Paytone one', sans-serif;
+    font-family: 'Archivo Black', sans-serif;
 }
 
 
@@ -99,12 +102,9 @@ h3{
     border-radius: 100px;
 }
 
-.btn-silver:hover{
+.btn-secondary:hover{
     background-color: white;
-}
-
-.btn-dark:hover{
-    background-color: silver;
+    color: #6c757d;
 }
 
 #img{
@@ -112,37 +112,35 @@ h3{
 }
 
 .projectimg, .modalimg{
-    border-radius: 15px;
-    border: 4px solid silver;
+    border-radius: 10px;
+    transition: transform .3s;
 }
 
 .projectimg:hover{
-    opacity: 0.3;
-}
-
-.projects:hover .imgtext{
-    visibility: visible;
+    /* opacity: 0.5; */
+    transform: scale(1.1);
 }
 
 .projects{
-    position: relative;
+    /* position: relative; */
   text-align: center;
   color: black;
 }
 
 .imgtext {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: 'Paytone one', sans-serif;
-    font-size: 2em;
-    visibility: hidden;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 1.4em;
+    color: white;
+  }
+
+  .imgtext2 {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 0.8em;
     color: white;
   }
 
   .technologies{
-    font-family: 'Paytone one', sans-serif;
+    font-family: 'Archivo Black', sans-serif;
     font-size: 1em;
   }
 
@@ -158,9 +156,13 @@ h3{
     line-height: 3.5rem;
     margin-right: 1rem;
   }
+  .social-icons a:hover{
+  background-color: white;
+  color: #6c757d !important;
+  }
 
   .modaltext{
-    font-family: 'Paytone one', sans-serif;
+    font-family: 'Archivo Black', sans-serif;
     font-size: 1.3em;
   }
 
@@ -178,13 +180,14 @@ h3{
     color: white;
     background-color: #212529;
     height: 3em;
+    font-family: 'Archivo Black', sans-serif;
 }
 
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */    
    
     h1 {
-        font-family: 'Paytone one', sans-serif;
+        font-family: 'Archivo Black', sans-serif;
         font-size: 3em;
     }
 
