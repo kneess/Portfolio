@@ -6,10 +6,10 @@ $(document).ready(function() {
       var currScrollTop = $(this).scrollTop();
       if (scroll >= banner_height && currScrollTop > lastScrollTop) {
         // $(".navbar").hide();
-        $(".navbar").addClass('hide');
+        $("#navbar").addClass('hide');
       } else {
         // $(".navbar").show();
-        $(".navbar").removeClass('hide');
+        $("#navbar").removeClass('hide');
 
       }
       lastScrollTop = currScrollTop;
