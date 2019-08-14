@@ -150,7 +150,8 @@ h3{
 
 .projectimg:hover{
     /* opacity: 0.5; */
-    transform: scale(1.1);
+    transform: scale(1.07);
+    cursor: cell;
 }
 
 .projects{
@@ -162,12 +163,6 @@ h3{
 .imgtext {
     font-family: 'Archivo Black', sans-serif;
     font-size: 1.4em;
-    color: white;
-  }
-
-  .imgtext2 {
-    font-family: 'Archivo Black', sans-serif;
-    font-size: 0.8em;
     color: white;
   }
 
